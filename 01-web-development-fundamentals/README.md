@@ -10,6 +10,6 @@ This course contains five sections:
 4. Basic Programming with JavaScript
 5. Git Workflow and Developer Practices
 
-## [Notes](./notes.md)
+## [Notes](notes.md)
 
-## [Projects](./projects/)
+## [Projects](projects)

@@ -1,0 +1,14 @@
+{
+  "name": "object-project",
+  "version": "1.0.0",
+  "description": "Object Project for App Accademy Open Week 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "SIndu Andita Pratama",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}

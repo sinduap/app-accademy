@@ -10,6 +10,6 @@ This course contains five sections:
 4. Functions
 5. Array Methods
 
-## [Notes](./notes.md)
+## [Notes](notes.md)
 
-## [Projects](./projects/)
+## [Projects](projects/)

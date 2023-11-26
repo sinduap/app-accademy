@@ -1,0 +1,18 @@
+{
+  "name": "recursion",
+  "version": "1.0.0",
+  "description": "Solving Problems Recursively Project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Sindu Andita Pratama",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
