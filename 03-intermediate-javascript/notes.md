@@ -1,9 +1,5 @@
 # Intermediate JavaScript
 
-## Table of Contents
-
-1. [Important Links](#important-links)
-
 ## Important Links
 
 - [Setup and Installations (Windows)](https://my.appacademy.io/lessons/setup/31c9782b/practices/setup-and-installations-windows/9ac6ec5e)

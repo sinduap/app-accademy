@@ -4,10 +4,10 @@ _contains my notes, solutions, projects, etc. corresponding to my work through t
 
 ## Progress Checklist
 
-- [x] [01-web-development-fundamentals](01-web-development-fundamentals/)
-- [x] [02-javascript-fundamentals](02-javascript-fundamentals/)
-- [x] [03-intermediate-javascript](03-intermediate-javascript/)
-- [ ] 04-tdd-and-oop
+- [x] [01-web-development-fundamentals](01-web-development-fundamentals)
+- [x] [02-javascript-fundamentals](02-javascript-fundamentals)
+- [x] [03-intermediate-javascript](03-intermediate-javascript)
+- [x] [04-tdd-and-oop](04-tdd-oop)
 - [ ] 05-data-structures-and-algorithms
 - [ ] 06-html-and-css
 - [ ] 07-servers-apis-and-promises

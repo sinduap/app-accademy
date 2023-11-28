@@ -12,4 +12,4 @@ This course contains five sections:
 
 ## [Notes](notes.md)
 
-## [Projects](projects/)
+## [Projects](projects)
