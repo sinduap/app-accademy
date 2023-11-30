@@ -6,3 +6,4 @@
 - [Array Long Practice](array-long)
 - [Binary Practice](binary)
 - [Binary Logic Long Practice](binary-logic)
+- [Dynamic Arrays Practice](dynamic-arrays)
