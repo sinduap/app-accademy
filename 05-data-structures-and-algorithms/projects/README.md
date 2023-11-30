@@ -7,3 +7,4 @@
 - [Binary Practice](binary)
 - [Binary Logic Long Practice](binary-logic)
 - [Dynamic Arrays Practice](dynamic-arrays)
+- [Dynamic Arrays Long Practice](dynamic-arrays-long)
