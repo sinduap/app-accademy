@@ -1,0 +1,90 @@
+:root {
+  --green: hsl(130, 70%, 35%);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#root {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.icon span {
+  color: black;
+  font-size: 40px;
+}
+
+.material-icons {
+  font-size: inherit;
+}
+
+.header {
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.nav__upper,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sign-in:link,
+.get-started:link,
+.sign-in:visited,
+.get-started:visited {
+  color: var(--green);
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.get-started:link {
+  border: 1px solid var(--green);
+  border-radius: 5px;
+}
+
+.nav__lower {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+}
+
+.nav__lower a:link,
+.nav__lower a:visited {
+  color: #444;
+  text-decoration: none;
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.grid {
+  width: 75%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.grid a:link,
+.grid a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer a:link,
+.footer a:visited {
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 20px;
+}
