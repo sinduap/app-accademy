@@ -1,0 +1,81 @@
+html,
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: #2b2d2f;
+  position: relative;
+}
+
+.element {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100px;
+  height: 280px;
+  font-size: 36px;
+}
+
+#yellow-box {
+  background-color: #ffff00;
+  position: static;
+  /* Fill these in
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: ;
+    */
+}
+
+#pink-box {
+  background-color: #ff69b4;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  z-index: 1;
+  /* Fill these in
+     */
+}
+
+#blue-box {
+  background-color: #00eeee;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 10px;
+  top: 70px;
+  z-index: 2;
+  /* Fill these in
+     */
+}
+
+#red-box {
+  background-color: #ff0000;
+  position: fixed;
+  bottom: 80px;
+  left: 8px;
+  right: 0;
+  top: auto;
+  z-index: 3;
+  /* Fill these in
+     */
+}
+
+#orange-box {
+  background-color: #ffa500;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 50px;
+  z-index: 4;
+  /* Fill these in
+     */
+}
+
+.container {
+  height: 1000px;
+}
