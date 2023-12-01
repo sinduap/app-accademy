@@ -8,7 +8,7 @@ _contains my notes, solutions, projects, etc. corresponding to my work through t
 - [x] [02-javascript-fundamentals](02-javascript-fundamentals)
 - [x] [03-intermediate-javascript](03-intermediate-javascript)
 - [x] [04-tdd-and-oop](04-tdd-oop)
-- [ ] 05-data-structures-and-algorithms
+- [x] [05-data-structures-and-algorithms](05-data-structures-and-algorithms)
 - [ ] 06-html-and-css
 - [ ] 07-servers-apis-and-promises
 - [ ] 08-frontend-javascript

@@ -23,7 +23,7 @@ class DynamicArray {
 
   unshift(val) {
     // Your code here
-    const firstEmptyIndex = this.data.findIndex(el => el === undefined) + 1;
+    const firstEmptyIndex = this.#length;
     this.length++;
 
     for (let i = firstEmptyIndex; i >= 0; i--) {
