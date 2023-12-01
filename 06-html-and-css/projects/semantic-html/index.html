@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My HTML Cheat Sheet</title>
+    <link
+      rel="icon"
+      href="https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-07/sample-icon.png"
+    />
+    <style>
+      code {
+        background-color: #d0d0d0;
+        padding: 1px 2px;
+        border-radius: 5px;
+      }
+
+      code.tags::before {
+        content: '<';
+      }
+
+      code.tags::after {
+        content: '>';
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My HTML Cheat Sheet</h1>
+
+    <section>
+      <h2>Headings</h2>
+      <p>
+        Headings from <code class="tags">h1</code> to
+        <code class="tags">h6</code> identify blocks and sections. Every page
+        must have one <code class="tags">h1</code>.
+      </p>
+      <h2>Paragraphs</h2>
+      <p>Paragraphs of text go in <code class="tags">p</code> tags.</p>
+    </section>
+
+    <section>
+      <h2>Lists</h2>
+      <h3>Unordered Lists</h3>
+      <p>
+        Unordered lists are marked with bullet points and go in
+        <code class="tags">ul</code> tags. Each list item goes in a
+        <code class="tags">li</code> tag.
+      </p>
+      <h4>Types of lists:</h4>
+      <ul>
+        <li>Unordered lists <code class="tags">ul</code></li>
+        <li>Ordered lists <code class="tags">ol</code></li>
+      </ul>
+    </section>
+
+    <section>
+      <h3>Ordered Lists</h3>
+      <p>
+        Ordered lists are numbered and go in <code class="tags">ol</code> tags.
+        Each list item goes in a <code class="tags">li</code> tag.
+      </p>
+      <h4>Polya's Problem Solving Framework</h4>
+      <ol>
+        <li>Understand the problem</li>
+        <li>Come up with a plan</li>
+        <li>Carry out the plan</li>
+        <li>Go back and improve your solution</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Anchors (i.e. links)</h2>
+      <p>
+        Anchor tags, <code class="tags">a</code>, create links to other pages.
+        The URL goes in the
+        <code class="tags">href</code>
+        attribute.
+        <a href="https://duckduckgo.com">
+          Go to DuckDuckGo to search for more information.
+        </a>
+      </p>
+      <p>
+        Setting <code>target="_blank"</code> will open the link in a new window.
+        See
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"
+          target="_blank"
+        >
+          MDN
+        </a>
+        for more details.
+      </p>
+    </section>
+
+    <section>
+      <h2>Images</h2>
+      <p>
+        You can use the <code class="tags">img</code> tag to add images to your
+        page.
+        <img
+          src="http://wanderlord.com/wp-content/uploads/2015/11/Lemur-5-150x150.jpg"
+          alt="A cute lemur"
+        />
+      </p>
+    </section>
+
+    <section>
+      <h2>Tables</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Insect</th>
+            <th scope="col">Family</th>
+            <th scope="col">Fact</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Ladybug</th>
+            <td>Coccinellidae</td>
+            <td>First living creatures in outer space!</td>
+          </tr>
+          <tr>
+            <th scope="row">Caterpillars</th>
+            <td>Heterobathmiidae</td>
+            <td>Have 12 eyes!</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td>I had no ideas!</td>
+            <td>Those are neat!</td>
+          </tr>
+        </tfoot>
+      </table>
+      <p>
+        A table is a structured set of data made up of rows and columns (tabular
+        data). A table allows you to quickly and easily look up values that
+        indicate some kind of connection between different types of data, for
+        example a person and their age, or a day of the week, or the timetables
+        for a local swimming pool.
+      </p>
+    </section>
+  </body>
+</html>
