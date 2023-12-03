@@ -8,3 +8,4 @@
 - [Binary Logic Long Practice](binary-logic)
 - [Dynamic Arrays Practice](dynamic-arrays)
 - [Dynamic Arrays Long Practice](dynamic-arrays-long)
+- [Linked List Part 1](linked-list-part-1)
