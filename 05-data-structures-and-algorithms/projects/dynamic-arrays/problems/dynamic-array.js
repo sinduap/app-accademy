@@ -14,6 +14,7 @@ class DynamicArray {
 
   set length(val) {
     this.#length = val;
+    this.data.length = val;
   }
 
   read(index) {
