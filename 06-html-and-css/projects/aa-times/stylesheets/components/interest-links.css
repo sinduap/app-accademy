@@ -1,0 +1,53 @@
+/* Your code here */
+.interests-bar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr 1fr 2fr 2fr 1fr 0.75fr;
+  border-top: 2px solid var(--black);
+  padding: 20px 0;
+}
+
+.interests-bar__image {
+  padding: 10px;
+}
+
+.interests-bar__text {
+  padding-right: 10px;
+  border-right: 1px solid var(--light-gray);
+}
+
+.interests-bar__stock {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid var(--light-gray);
+}
+
+.interests-bar__stock > div:not(:last-of-type) {
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.interests-bar__stock > div {
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.interests-bar__stock-price {
+  color: green;
+}
+
+.interests-bar__big-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 999px) {
+  .interests-bar {
+    display: none;
+  }
+}

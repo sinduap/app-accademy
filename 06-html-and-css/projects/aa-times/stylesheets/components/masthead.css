@@ -1,0 +1,80 @@
+/* Your code here */
+
+.masthead {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.masthead__menu-and-search {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.masthead__button-icons {
+  font-size: 11px;
+  padding: 7px 9px;
+  cursor: pointer;
+}
+
+.masthead__button-icons:hover {
+  color: var(--gray);
+}
+
+.masthead__actions {
+  grid-column: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.masthead__technologies {
+  grid-column: 1 / span 3;
+  border-bottom: 1px solid var(--light-gray);
+  text-align: center;
+}
+
+.masthead__tabs {
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  font-size: 10px;
+  color: var(--dark-gray);
+  border: 1px solid var(--light-gray);
+  border-bottom: 1px solid white;
+  position: relative;
+  top: 1px;
+}
+
+.masthead__tabs span {
+  padding: 5px 10px 0;
+}
+
+.masthead__tabs .active {
+  font-weight: bold;
+}
+
+.masthead__date {
+  grid-column: 1;
+  align-self: self-end;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.masthead__logo {
+  justify-self: center;
+  max-width: 400px;
+  padding: 20px 0 5px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.masthead__paper {
+  align-self: self-end;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--light-gray);
+  text-align: end;
+}
+
+.masthead__paper i {
+  font-size: 11px;
+}
