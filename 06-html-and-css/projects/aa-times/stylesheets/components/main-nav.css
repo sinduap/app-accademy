@@ -1,0 +1,21 @@
+/* Your code here */
+.main-nav {
+  padding: 10px 0;
+}
+
+.main-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main-nav__list {
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 999px) {
+  .main-nav {
+    display: none;
+  }
+}
