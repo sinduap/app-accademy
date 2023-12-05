@@ -1,0 +1,67 @@
+.photo-card {
+  background-color: #1d3e81;
+  color: #e8eff0;
+  padding: 0.5rem 2rem 1.5rem 2rem;
+  border-radius: 2rem;
+  margin: 0 0 10px 0;
+  text-align: center;
+}
+
+.photo-card a {
+  color: #e8eff0;
+}
+.photo-card img {
+  width: 100%;
+}
+
+.photo-card p {
+  text-align: justify;
+}
+
+.photo-card .content {
+  display: block;
+  text-align: center;
+}
+
+/* Your code here */
+@media screen and (min-width: 600px) {
+  .photo-card .content {
+    display: grid;
+    grid-template-columns: 200px auto;
+    column-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .photo-card .content {
+    display: block;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .photo-card .content {
+    display: grid;
+  }
+}
+
+@media print {
+  .photo-card .content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .photo-card {
+    break-inside: avoid;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+    justify-content: flex-start;
+  }
+}

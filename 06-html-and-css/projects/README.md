@@ -16,3 +16,5 @@
 - [Recreate Trello Long Practice](recreate-trello)
 - [CSS Grid](css-grid)
 - [AA Times Long Practice](aa-times)
+- [CSS Media Queries](css-media-queries)
+- [Media Queries Long Practice](media-queries-long)
