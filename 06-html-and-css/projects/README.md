@@ -18,3 +18,5 @@
 - [AA Times Long Practice](aa-times)
 - [CSS Media Queries](css-media-queries)
 - [Media Queries Long Practice](media-queries-long)
+- [CSS Transitions](css-transitions)
+- [CSS Framework Long Practice](css-framework-long)

@@ -1,0 +1,115 @@
+@import 'reset.css';
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.g-1 {
+  gap: 1rem;
+}
+
+.nav {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px;
+}
+
+.nav-link {
+  align-items: center;
+  color: steelblue;
+  display: flex;
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+.nav-link:hover {
+  border-radius: 5px;
+  background-color: steelblue;
+  color: white;
+}
+
+.active {
+  border-bottom: 2px solid steelblue;
+  color: steelblue;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.btn {
+  background-color: steelblue;
+  border: 2px solid steelblue;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 20px;
+  /* width: min(fit-content, 100%); */
+  display: inline;
+}
+
+.btn:hover {
+  background-color: white;
+  border: 2px solid steelblue;
+  border-radius: 5px;
+  color: steelblue;
+}
+
+h1 {
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+h2 {
+  background-color: white;
+  border: 2px solid steelblue;
+  color: steelblue;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card-body {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.alert-primary {
+  border: 1px solid darkred;
+  border-radius: 5px;
+  background-color: rgba(255, 0, 0, 0.2);
+  color: darkred;
+  padding: 20px;
+}
