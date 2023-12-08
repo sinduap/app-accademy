@@ -14,7 +14,8 @@ const asciiTo8bit = (str, delimiter = '') => {
 
   while (i < str.length) {
     const codePoint = str.codePointAt(i);
-    const byte = decimalToBinary(codePoint).slice(2).padStart(8, '0');
+    const binary = decimalToBinary(codePoint);
+    const byte = addZeros(binary.slice(2), 8);
     bytes += byte + delimiter;
     i++;
   }

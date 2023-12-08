@@ -28,6 +28,20 @@ const getBase = str => {
   }
 };
 
+const compose = (...fns) =>
+  fns.reduceRight(
+    (f, g) =>
+      (...args) =>
+        f(g(...args))
+  );
+
+const curry = fn =>
+  function curried(...args) {
+    return args.length >= fn.length
+      ? fn(...args)
+      : arg => curried(...args, arg);
+  };
+
 const binaryToDecimal = str => {
   let decimal = 0;
   let exponent = 0;
@@ -69,10 +83,7 @@ const decimalToBinary = num => {
   return '0b' + binary;
 };
 
-const hexadecimalToBinary = (
-  a => b => str =>
-    a(b(str))
-)(decimalToBinary)(hexadecimalToDecimal);
+const hexadecimalToBinary = compose(hexadecimalToDecimal, decimalToBinary);
 
 const decimalToHexadecimal = num => {
   let hexadecimal = '';
@@ -88,10 +99,7 @@ const decimalToHexadecimal = num => {
   return '0x' + hexadecimal;
 };
 
-const binaryToHexadecimal = (
-  a => b => str =>
-    a(b(str))
-)(decimalToHexadecimal)(binaryToDecimal);
+const binaryToHexadecimal = compose(binaryToDecimal, decimalToHexadecimal);
 
 module.exports = {
   getBase,
