@@ -2,8 +2,7 @@ function divisibleByThreePairSum(array) {
   let result = [];
 
   for (let i = 0; i < array.length; i++) {
-    for (let j = 0; j < array.length; j++) {
-      if (i === j || j < i) continue;
+    for (let j = i + 1; j < array.length; j++) {
       const sum = array[i] + array[j];
       if (sum % 3 === 0) {
         result.push([i, j]);
