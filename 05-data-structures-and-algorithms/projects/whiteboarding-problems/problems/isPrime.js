@@ -1,7 +1,7 @@
 function isPrime(n) {
-  let result = true;
+  if (n < 2) return false;
 
-  if (n < 2) return result;
+  let result = true;
 
   for (let i = n - 1; i > 1; i--) {
     if (n % i === 0) {
