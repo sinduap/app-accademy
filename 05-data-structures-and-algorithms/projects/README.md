@@ -12,3 +12,4 @@
 - [Linked List Project](linked-list-project)
 - [Whiteboarding Problems](whiteboarding-problems)
 - [Hash Tables Practice](hash-tables)
+- [Hash Tables Implementation](hash-tables-implementation)
